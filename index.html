@@ -20,7 +20,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         <a href="#certification">Certification</a>
         <a href="#hosts">Our Hosts</a>
         <a href="#faqs">FAQs</a>
-        <a href="#register" class="nav-register-btn">Register Now</a>
+        <a href="https://forms.gle/EaR8pg8igj1fskiTA" target="_blank" rel="noopener noreferrer" class="nav-register-btn">Register Now</a>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -68,7 +68,7 @@
         <div class="pillar-chip">⏱ Timing (Kala)</div>
       </div>
       <div class="hero-actions">
-        <a href="#register" class="btn-primary">Reserve Your Spot →</a>
+        <a href="https://forms.gle/EaR8pg8igj1fskiTA" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Spot →</a>
         <a href="#overview" class="btn-outline">Explore Program</a>
       </div>
       <div class="hero-meta">
@@ -226,7 +226,8 @@
             <div>
               <strong>Workshop Fee</strong>
               <span class="big-fee">₹ 12,000</span>
-              <small>✓ What's Included<br>Campus stay, Organic food, activity materials</small>
+              <small>✓ What's Included<br>Campus stay, Organic food, activity materials<br>✓ for support call
+                9912910148</small>
             </div>
           </div>
         </div>
@@ -510,48 +511,22 @@
       <section class="section register-section" id="register">
         <div class="section-label">Register Now</div>
         <h2 class="section-h2">Reserve Your Spot Today</h2>
-        <p class="section-p">Limited to 20–25 participants only. Fill this form and our team will call you within 24
-          hours to confirm your registration.</p>
-        <form class="reg-form" id="regForm" novalidate>
-          <div class="form-row">
-            <div class="form-field">
-              <label for="fname">Full Name *</label>
-              <input type="text" id="fname" name="name" placeholder="Your full name" autocomplete="name" required>
-              <span class="ferr" id="fnameErr">Please enter your name</span>
-            </div>
-            <div class="form-field">
-              <label for="fphone">WhatsApp Number *</label>
-              <input type="tel" id="fphone" name="phone" placeholder="10-digit mobile number" autocomplete="tel"
-                required>
-              <span class="ferr" id="fphoneErr">Enter a valid 10-digit number</span>
-            </div>
+        <p class="section-p">Limited to 20–25 participants only. To confirm your participation, you must fill out the compulsory registration form on Google Forms.</p>
+        
+        <div class="google-form-card">
+          <div class="gf-header">
+            <span class="gf-icon">📝</span>
+            <h3>Participant Registration Form</h3>
+            <span class="gf-required-tag">Compulsory</span>
           </div>
-          <div class="form-row">
-            <div class="form-field">
-              <label for="femail">Email Address (Optional)</label>
-              <input type="email" id="femail" name="email" placeholder="your@email.com" autocomplete="email">
-            </div>
-            <div class="form-field">
-              <label for="fslot">Preferred Session *</label>
-              <select id="fslot" name="slot" required>
-                <option value="" disabled selected>Choose a session slot</option>
-                <option value="morning">10:00 AM – 1:00 PM (Concept + Demo)</option>
-                <option value="afternoon">2:00 PM – 4:00 PM (Hands-on Practice)</option>
-              </select>
-              <span class="ferr" id="fslotErr">Please select a session</span>
-            </div>
+          <p class="gf-text">Please click the button below to open the registration form in a new tab. Ensure all details are filled out correctly to secure your accommodation and slot.</p>
+          <a href="https://forms.gle/EaR8pg8igj1fskiTA" target="_blank" rel="noopener noreferrer" class="gf-btn">
+            Go to Registration Form →
+          </a>
+          <div class="gf-footer">
+            <p>📞 Need assistance or want to request fee support? Call us: <a href="tel:9912910148"><strong>9912910148</strong></a></p>
           </div>
-          <div class="form-field">
-            <label for="fwhy">Tell us about yourself (Optional)</label>
-            <textarea id="fwhy" name="message" rows="3"
-              placeholder="Your cooking background, what you hope to learn..."></textarea>
-          </div>
-          <div class="form-field-check">
-            <input type="checkbox" id="fterms" required checked>
-            <label for="fterms">I agree to the residential stay requirements and workshop guidelines.</label>
-          </div>
-          <button type="submit" class="btn-submit" id="submitBtn">Submit Registration →</button>
-        </form>
+        </div>
       </section>
 
     </main>
@@ -580,7 +555,7 @@
               <div><strong>Venue</strong><span>Anahad, Vikarabad<br>50km from Hyderabad</span></div>
             </li>
           </ul>
-          <a href="#register" class="sb-register-btn">Reserve Your Spot →</a>
+          <a href="https://forms.gle/EaR8pg8igj1fskiTA" target="_blank" rel="noopener noreferrer" class="sb-register-btn">Reserve Your Spot →</a>
           <p class="sb-support">Fee support available for participants.</p>
           <div class="sb-divider"></div>
           <div class="sb-contact">
@@ -623,7 +598,7 @@
       <span class="mob-price">₹ 12,000</span>
       <span class="mob-label">5-Day Residential Workshop</span>
     </div>
-    <a href="#register" class="mob-cta-btn">Register Now</a>
+    <a href="https://forms.gle/EaR8pg8igj1fskiTA" target="_blank" rel="noopener noreferrer" class="mob-cta-btn">Register Now</a>
   </div>
 
   <!-- SUCCESS OVERLAY (built by JS) -->
@@ -643,7 +618,7 @@
     </div>
   </div>
 
-  <script src="script.js?v=2"></script>
+  <script src="script.js?v=3"></script>
 </body>
 
 </html>
